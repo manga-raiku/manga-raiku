@@ -199,8 +199,8 @@ importers:
         specifier: ^1.1.33
         version: 1.1.33
       '@iconify-json/logos':
-        specifier: ^1.1.36
-        version: 1.1.36
+        specifier: ^1.1.42
+        version: 1.1.42
       '@iconify-json/material-symbols':
         specifier: ^1.1.68
         version: 1.1.68
@@ -4370,8 +4370,8 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify-json/logos@1.1.36:
-    resolution: {integrity: sha512-YdBiDwmomgedInuBS4YcQ+qpMkvixBhPqmwRLtnNp+qd9C/lKfM5Y4pNsSi6lRZSALiOqXxiZJZ1e9+L+BRrKQ==}
+  /@iconify-json/logos@1.1.42:
+    resolution: {integrity: sha512-/f+frtPm3m3Z30oy8Pk+QqRDkbmAiIaWGPl5CmsCXm15MVfvw9a/V/gD7WzdyuSGAZcFuQaqbHXj92y/n+2ifg==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
