@@ -24,6 +24,6 @@
     "@tachibana-shin/capacitor-filesystem": "^5.0.2"
   },
   "devDependencies": {
-    "@capgo/cli": "^3.14.44"
+    "@capgo/cli": "^4.2.2"
   }
 }
