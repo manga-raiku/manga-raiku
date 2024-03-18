@@ -178,8 +178,8 @@ importers:
         specifier: ^1.1.10
         version: 1.1.10
       '@iconify-json/carbon':
-        specifier: ^1.1.21
-        version: 1.1.21
+        specifier: ^1.1.31
+        version: 1.1.31
       '@iconify-json/ep':
         specifier: ^1.1.12
         version: 1.1.12
@@ -4328,8 +4328,8 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify-json/carbon@1.1.21:
-    resolution: {integrity: sha512-bK2cMVM4noBU+FGlay433flpXLRzQu0ED095iAnoO6ka3yb4uz0lvb8acpN5gthyGLJ89C4HpfIbQZLQnMKQww==}
+  /@iconify-json/carbon@1.1.31:
+    resolution: {integrity: sha512-CAvECFfiwGyZmlcuM2JLMRDEN3VsIEZv6lml7Xf+3giQ5oXloADm0b5wiVPFZmONKM5jXERmx+E7YSvAtFJIbw==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -17637,6 +17637,21 @@ packages:
     dependencies:
       vue: 3.3.8(typescript@5.0.4)
 
+  /vue-demi@0.14.7(vue@3.3.8):
+    resolution: {integrity: sha512-EOG8KXDQNwkJILkx/gPcoL/7vH+hORoBaKgGe+6W7VFMvCYJfmF2dGbvgDroVnI8LU7/kTu8mbjRZGBU1z9NTA==}
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    peerDependencies:
+      '@vue/composition-api': ^1.0.0-rc.1
+      vue: ^3.0.0-0 || ^2.6.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+    dependencies:
+      vue: 3.3.8(typescript@5.0.4)
+    dev: false
+
   /vue-eslint-parser@9.3.1(eslint@8.33.0):
     resolution: {integrity: sha512-Clr85iD2XFZ3lJ52/ppmUDG/spxQu6+MAeHXjjyI4I1NUYZ9xmenQp4N0oaHJhrA8OOxltCVxMRfANGa70vU0g==}
     engines: {node: ^14.17.0 || >=16.0.0}
@@ -17684,7 +17699,7 @@ packages:
         optional: true
     dependencies:
       vue: 3.3.8(typescript@5.0.4)
-      vue-demi: 0.14.6(vue@3.3.8)
+      vue-demi: 0.14.7(vue@3.3.8)
     dev: false
 
   /vue-router@4.2.5(vue@3.3.8):
